@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var hoge:String?
+        hoge = "This is Github Practice"
+        if let op = hoge{
+            print(op + "Success!!")
+        }
     }
 
     override func didReceiveMemoryWarning() {
