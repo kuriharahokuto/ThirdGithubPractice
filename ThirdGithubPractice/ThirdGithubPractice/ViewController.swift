@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func buttonDidTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +20,7 @@ class ViewController: UIViewController {
         if let op = hoge{
             print(op + "Success!!")
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
